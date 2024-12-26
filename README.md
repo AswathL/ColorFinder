@@ -30,7 +30,6 @@ To run this app locally, you will need:
 
 - Android Studio 4.0+ with Kotlin support.
 - A Firebase project setup with Firebase Realtime Database enabled.
-- Firebase Authentication (if using authentication for secure access).
 
 ## Setup
 
@@ -57,10 +56,11 @@ For testing purposes, you can set the following rules for Firebase Realtime Data
 ```json
 {
   "rules": {
-    ".read": "auth != null",
-    ".write": "auth != null"
+    ".read": "true",
+    ".write": "true"
   }
 }
+
 ```
 
 ### 4. Run the App
