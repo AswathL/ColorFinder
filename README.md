@@ -36,7 +36,7 @@ To run this app locally, you will need:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ColorFinder.git
+git clone https://github.com/AswathL/ColorFinder.git
 cd ColorFinder
 ```
 
